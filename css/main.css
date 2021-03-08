@@ -1,28 +1,36 @@
-html {
-  body {
-    background-color: #fdf6e3;
-  }
+html{
+  box-sizing: border-box;
+}
 
-  header {
-    font-size: 1.5rem;
-  }
+*, *::before, *::after {
+  box-sizing: inherit;
+}
 
-  footer {
-    font-size: 1.5rem;
-  }
+body {
+  background-color: #fdf6e3;
+}
 
-  nav ul {
-    font-family: sans-serif;
-  }
+header {
+  font-size: 1.5rem;
+}
 
-  .logo {
-    text-transform: uppercase;
-  }
+footer {
+  font-size: 1.5rem;
+}
 
-  .wrapper {
-    background-color: #eee8d5;
-  }
-id {
+nav ul {
+  font-family: sans-serif;
+}
+
+.logo {
+  text-transform: uppercase;
+}
+
+.wrapper {
+  background-color: #eee8d5;
+}
+
+#contents, #favs, #facts, #types {
   color: #93a1a1;
 }
 
@@ -38,13 +46,14 @@ a:not(.no-highlight) {
   background-color: #719e07;
 }
 
-rel="external" {
+[rel="external"] {
   background-color: #2694d8;
 }
 
 ol li:first-child {
-  color:#719e47;
+  color: #719e47;
 }
+
 ol li:last-child {
   color: #2aa198;
 }
@@ -52,10 +61,11 @@ ol li:last-child {
 .types > li:nth-child(odd) {
   background-color: #657ba3;
 }
+
 .types > li:nth-child(even) {
   background-color: #586e75;
 }
+
 .types > li:nth-child(3) {
   background-color: #d04b16;
-}
 }
